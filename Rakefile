@@ -17,10 +17,12 @@ Jeweler::Tasks.new do |gem|
   gem.name = "backbone-handlebars"
   gem.homepage = "http://github.com/superchris/backbone-handlebars"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Backbone views with handlebars templates}
+  gem.description = %Q{That's all folks}
   gem.email = "superchrisnelson@gmail.com"
   gem.authors = ["Chris Nelson"]
+  gem.files.include "vendor/assets/**/*"
+  gem.files.include "lib/**/*"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
