@@ -1,5 +1,5 @@
 #= require handlebars
-class HandlebarsView extends Backbone.View
+class Backbone.HandlebarsView extends Backbone.View
   constructor: (options = {})->
     @el = $("##{@name}") unless options.el
     @subViews = []
