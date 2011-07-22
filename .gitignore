@@ -42,7 +42,11 @@ pkg
 #*.swp
 
 # For redcar:
-#.redcar
+.redcar
 
 # For rubinius:
 #*.rbc
+
+spec/javascripts/compiled
+javascripts/compiled
+
